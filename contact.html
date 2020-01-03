@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>株式会社DIVE</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 追記 -->
+        <header class="header">
+            <a href="index.html"><img src="./images/logo.png" class="logo_image"></a>
+            <nav>
+                <ul class="top_menu clearfix">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="business.html">事業内容</a></li>
+                    <li><a href="company.html">会社概要</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img src="./images/TOP.png" class="image_area">
+        <div class="wrapper clearfix">
+            <aside class="side_menu">
+                <nav>
+                    <ul>
+                        <li><a href="business.html">事業内容</a></li>
+                        <li><a href="company.html">会社概要</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <article class="content">
+                <form action="">
+                    <table class="form-table">
+                        <tbody>
+                            <tr>
+                                <th>お名前</th>
+                                <td><input type="text" name="name" size="60" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>メールアドレス</th>
+                                <td><input type="text" name="email" size="60" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>性別</th>
+                                <td>
+                                    <div>
+                                        <input type="radio" id="male-radio" name="drone" value="男" checked>
+                                        <label for="male-radio">男</label>
+                                        <input type="radio" id="female-radio" name="drone" value="女">
+                                        <label for="female-radio">女</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>お問い合わせ内容</th>
+                                <td><textarea name="content"></textarea>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <button id="form-button" type="submit">送信</button>
+                </form>
+            </article>
+        </div>
+
+
+        <footer class="footer">
+            <!-- 追記 -->
+            <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
